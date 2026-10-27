@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create new posts</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
-<body>
-    <form method="post" action="/posts">
+<body class="outerForm">
+    <form class="newUserForm" method="post" action="/posts">
         <input placeholder="enter username" name="username">
         <br><br>
         <textarea name="content" placeholder="write your post"></textarea>
         <br><br>
-        <button>Submit Post</button>
+        <button class="btn">Submit Post</button>
     </form>
 
 </body>

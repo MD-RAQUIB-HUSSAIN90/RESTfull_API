@@ -15,11 +15,18 @@
         <div class="post">
             <h3 class="user">username: @<%= post.username%>
             </h3>
-            <h4 class="content">Content: <%= post.Content%>
+            <h4 class="content">Content: <%= post.content%>
             </h4>
+            <br>
+            <a href="http://localhost:8080/posts/<%=post.id%>">See in details</a>
         </div>
-
         <%}%>
+
+
+            <br>
+            <br>
+            <br>
+            <a href="http://localhost:8080/posts/new"> Create New Post</a>
 </body>
-  
+
 </html>

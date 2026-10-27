@@ -8,3 +8,22 @@ h1 {
 .user {
   font-style: italic;
 }
+
+.outerForm {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  height: 100%;
+  width: 100%;
+}
+.newUserForm {
+  padding: 50px;
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: goldenrod;
+}
