@@ -10,7 +10,7 @@
 
 <body>
 
-    <h1>QUORA POST</h1>
+    <h1 class="QuoraPost">QUORA POST</h1>
     <%for(post of posts) {%>
         <div class="post">
             <h3 class="user">username: @<%= post.username%>
@@ -19,6 +19,8 @@
             </h4>
             <br>
             <a href="http://localhost:8080/posts/<%=post.id%>">See in details</a>
+            <a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit</a>
+            
         </div>
         <%}%>
 
